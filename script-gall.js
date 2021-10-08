@@ -1,7 +1,7 @@
 let header = document.querySelector(".main_nav");
 let logo = document.querySelector(".logo");
 let logoLight = document.querySelector(".logo-light");
-let topBtn = document.getElementById("btn-top");
+
 let topBtnGal = document.getElementById("btn-top-gal");
 logoLight.style = "visibility:hidden";
 
@@ -23,14 +23,10 @@ const scrollFunction = () => {
     logo.style = "visibility:visible";
     logoLight.style = "visibility:hidden";
   }
+
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    topBtn.style.display = "block";
+    topBtnGal.style.display = "block";
   } else {
-    topBtn.style.display = "none";
+    topBtnGal.style.display = "none";
   }
-  // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  //   topBtnGal.style.display = "block";
-  // } else {
-  //   topBtnGal.style.display = "none";
-  // }
 };

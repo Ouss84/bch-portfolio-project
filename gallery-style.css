@@ -177,6 +177,27 @@ header nav ul li a,
   grid-row-start: 4;
   grid-row-end: span 2;
 }
+/**************** Button to top area ****************/
+#btn-top-gal {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(187, 93, 93);
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+/*On Hover Color Change*/
+#btn-top-gal:hover {
+  background-color: #e29689;
+}
 /**************** Footer area ****************/
 
 footer {
@@ -346,5 +367,10 @@ footer img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+  a:hover {
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
   }
 }
