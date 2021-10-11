@@ -272,6 +272,72 @@ footer img {
     grid-template-columns: 1fr;
     grid-template-rows: 9fr;
   }
+  .grid-container {
+    height: 145vh;
+    margin: 5rem 1rem;
+    display: grid;
+    grid-gap: 0.3rem;
+    background-color: #f6f6f6ff;
+    grid-template-columns: 3fr;
+    grid-template-rows: 3fr;
+    grid-template-areas:
+      "img1 img2 img3"
+      "img4 img5 img6"
+      "img7 img8 img9";
+  }
+  .grid-img1 {
+    grid-area: img1;
+  }
+  .grid-img2 {
+    grid-area: img2;
+  }
+  .grid-img3 {
+    grid-area: img3;
+  }
+  .grid-img4 {
+    grid-area: img4;
+  }
+  .grid-img5 {
+    grid-area: img5;
+  }
+  .grid-img6 {
+    grid-area: img6;
+  }
+  .grid-img7 {
+    grid-area: img7;
+  }
+  .grid-img8 {
+    grid-area: img8;
+  }
+  .grid-img9 {
+    grid-area: img9;
+  }
+  .grid-imgs {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #btn-top-gal {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(187, 93, 93);
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    font-style: italic;
+  }
+  /*On Hover Color Change*/
+  #btn-top-gal:hover {
+    background-color: #e29689;
+  }
 }
 
 /**************** Mobile support ****************/
@@ -284,7 +350,7 @@ footer img {
   }
   .hero-banner h3 {
     font-size: 1.5rem;
-    top: 5vh;
+
     position: relative;
   }
   .half-title {
@@ -368,9 +434,26 @@ footer img {
     height: 100%;
     object-fit: cover;
   }
-  a:hover {
-    font-size: 0.9rem;
-    font-weight: bold;
+  #btn-top-gal {
+    display: none;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgb(187, 93, 93);
+    color: white;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    opacity: 0.8;
+    font-size: 0.6rem;
     font-style: italic;
+    letter-spacing: 2px;
+  }
+  /*On Hover Color Change*/
+  #btn-top-gal:hover {
+    background-color: #e29689;
   }
 }

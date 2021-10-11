@@ -2,7 +2,7 @@ let header = document.querySelector(".main_nav");
 let logo = document.querySelector(".logo");
 let logoLight = document.querySelector(".logo-light");
 let topBtn = document.getElementById("btn-top");
-let topBtnGal = document.getElementById("btn-top-gal");
+
 logoLight.style = "visibility:hidden";
 
 window.onscroll = function () {
@@ -28,9 +28,4 @@ const scrollFunction = () => {
   } else {
     topBtn.style.display = "none";
   }
-  // if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  //   topBtnGal.style.display = "block";
-  // } else {
-  //   topBtnGal.style.display = "none";
-  // }
 };
