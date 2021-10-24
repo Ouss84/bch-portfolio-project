@@ -1,5 +1,9 @@
 # bch-portfolio-project
 
+## Description
+
+- A portfolio project build with HTMl5, CSS3, and Javascript done as a final project for the HTML&CSS courses, in the FullStack program at Business College Helsinki
+
 ## Step 1:
 
 - HTML

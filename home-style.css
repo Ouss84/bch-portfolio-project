@@ -252,16 +252,18 @@ footer img {
   height: 2rem;
 }
 .footer-icons {
-  display: inline-block;
+  display: flex;
   align-items: center;
   justify-content: center;
   margin: 15px 0;
   padding: 2px;
-  background-color: aliceblue;
+
   border-radius: 3px;
 }
 .footer-icons img {
-  margin: 10px;
+  margin: 15px;
+  background: aliceblue;
+  border-radius: 8px;
 }
 /**************** Hiding the menu icon on large display ****************/
 @media (min-width: 577px) {
