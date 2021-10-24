@@ -1,5 +1,12 @@
 # bch-portfolio-project
 
+## Links
+
+- Deployed portfolio:
+  - https://oussamabahri.netlify.app/
+- Github code:
+  - https://github.com/Ouss84/bch-portfolio-project
+
 ## Description
 
 - A portfolio project build with HTMl5, CSS3, and Javascript done as a final project for the HTML&CSS courses, in the FullStack program at Business College Helsinki
