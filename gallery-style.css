@@ -353,7 +353,9 @@ footer img {
   }
   .hero-banner h3 {
     font-size: 1.5rem;
+    margin-top: 4rem;
 
+    width: 55%;
     position: relative;
   }
   .half-title {
