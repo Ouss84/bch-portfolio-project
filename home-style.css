@@ -389,7 +389,7 @@ footer img {
     top: 40px;
     padding: 0;
     height: calc(100vh - 70px);
-    width: 7.5rem;
+    width: 80vw;
     transition: all 0.3s ease-in-out;
   }
 

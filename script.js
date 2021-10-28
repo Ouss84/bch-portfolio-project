@@ -2,7 +2,7 @@ let header = document.querySelector(".main_nav");
 let logo = document.querySelector(".logo");
 let logoLight = document.querySelector(".logo-light");
 let topBtn = document.getElementById("btn-top");
-
+let mobileNavMenu = document.querySelector(".nav");
 logoLight.style = "visibility:hidden";
 
 window.onscroll = function () {
@@ -29,3 +29,11 @@ const scrollFunction = () => {
     topBtn.style.display = "none";
   }
 };
+
+function displayMenu() {
+  if (mobileNavMenu.style.display === "block") {
+    mobileNavMenu.style.display = "none";
+  } else {
+    mobileNavMenu.style.display = "block";
+  }
+}
